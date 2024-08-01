@@ -12,7 +12,7 @@ public class Task2 {
             marks = input.nextInt();
             if (marks < 0 || marks > 100) {
                 while (marks > 100 || marks < 0) {
-                    System.out.println("Enter marks only in range 0 to 100");
+                    System.out.println("Enter marks only in range 0 to 100: ");
                     marks = input.nextInt();
                 }
             }
